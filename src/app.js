@@ -11,7 +11,7 @@ app.get('/hello', (req, res) => {
 });
 
 app.get('/dashboard', (req, res) => {
-  res.json({ msg: 'Hello!', status: 201 });
+  res.json({ msg: 'Hello!', status: 999 });
 });
 
 app.listen(3000, () => console.log('Running on Port 3000 ...'));
